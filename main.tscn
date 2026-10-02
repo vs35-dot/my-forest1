@@ -10,7 +10,6 @@
 position = Vector2(100, 100)
 texture = ExtResource("1_icon")
 script = ExtResource("3_icon")
-speed = 300
 
 [node name="Forest" type="Node2D" parent="." unique_id=535498533]
 
