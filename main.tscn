@@ -1,13 +1,16 @@
 [gd_scene format=3 uid="uid://g3ckytdoc2hn"]
 
 [ext_resource type="Texture2D" uid="uid://b7c1qp5ifmqdn" path="res://icon.svg" id="1_icon"]
-[ext_resource type="PackedScene" path="res://tree.tscn" id="2_tree"]
+[ext_resource type="PackedScene" uid="uid://becb75xprbiy7" path="res://tree.tscn" id="2_tree"]
+[ext_resource type="Script" uid="uid://w3583tfwiewt" path="res://icon.gd" id="3_icon"]
 
 [node name="Main" type="Node2D" unique_id=1440740596]
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=1153297206]
 position = Vector2(100, 100)
 texture = ExtResource("1_icon")
+script = ExtResource("3_icon")
+speed = 300
 
 [node name="Forest" type="Node2D" parent="." unique_id=535498533]
 

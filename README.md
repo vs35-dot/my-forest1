@@ -1,6 +1,8 @@
 **My Forest**
 
-This is my lab 1 project for Intro to Video Game Design. 
+This is my Lab 2 and Lab 3 project for Intro to Video Game Design. 
+
+**Lab 2**
 
 The main scene has the Godot icon and a forest with 3 trees. I made a tree scene with a tree picture and added it to the main scene 3 times inside a Forest node.
 
@@ -22,3 +24,28 @@ The main scene has the Godot icon and a forest with 3 trees. I made a tree scene
 
 - Why does Godot need the .import files, and should they always go on GitHub?
 
+**Lab 3**
+
+I added a script to the Godot icon so it moves left and right with the arrow keys.
+
+How it meets the requirements:
+
+- speed is an exported variable I can change in the Inspector.
+
+- the script uses if and elif.
+
+- it uses Input.is_action_pressed to check the arrow keys.
+
+**What I learned**
+
+- _process runs every frame.
+
+- multiplying by delta keeps the speed the same.
+
+- @export makes a variable show up in the Inspector.
+
+**Questions**
+
+- How do I make the icon move up and down too?
+
+- How do I stop it from going off the screen?
