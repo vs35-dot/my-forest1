@@ -30,7 +30,7 @@ I added a script to the Godot icon so it moves left and right with the arrow key
 
 How it meets the requirements:
 
-- speed is how many pixels the icon moves each frame.
+- speed is an exported variable I can change in the Inspector.
 
 - the script uses if and elif.
 
@@ -40,7 +40,7 @@ How it meets the requirements:
 
 - _process runs every frame.
 
-- multiplying by delta keeps the speed the same.
+- speed is how many pixels the icon moves each frame.
 
 - @export makes a variable show up in the Inspector.
 
